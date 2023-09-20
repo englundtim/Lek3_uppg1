@@ -2,6 +2,49 @@
     border: 2px solid red;
     min-height: 80px;
     display: flex;
-    flex-flow: row;
-    row-gap: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+#rubrik{
+    border: 2px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: aqua ;
+
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+#hr{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 49%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#vr{
+    background-color: pink;
+    border: 2px solid black;
+    width: 49%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bot-diff{
+    border: 2px solid yellow;
+
 }
